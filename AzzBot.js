@@ -30,8 +30,8 @@ let setting = JSON.parse(fs.readFileSync('./apikey.json'))
 
 //limit
 limitawal = '10'
-botname = 'AzzBot•MD'
-wm = '© AzzBot - MD'
+botname = 'FIN•MD'
+wm = '© FIN - MD'
 
 // read database
 let tebaklagu = db.data.game.tebaklagu = []
@@ -249,7 +249,7 @@ timezone: "Asia/Jakarta"
 	}
 
 const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
-let po = zets.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "𝐻𝑒𝑟𝑚𝑎𝑛 𝐶ℎ𝑎𝑛𝑒𝑙᭄𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
+let po = zets.prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "Pilih Disini","footerText": "FIN𓅂","listType": "SINGLE_SELECT","sections": list, quoted:mek}}, {})
 return zets.relayWAMessage(po, {waitForAck: true, quoted:mek})
 }
 	
@@ -652,17 +652,16 @@ delete this.suit[id]
 }
 break
 	case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/7ZWmBrMB/IMG-20220819-WA0027.jpg' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6281252848955 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : https://www.paypal.me/Rifando35\n⌕ Saweria : https://saweria.co/Nando35` }, { quoted: m })
+zets.sendMessage(m.chat, { image: { url: 'https://i.postimg.cc/NjpSKY7s/thumb-1920-1057537.png' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⌕ 15k Per Group via E-Walet 1 Month\n⌕ 20k via pulsa 1 Month\n\n Premium Price Bot\n⌕ 10k per User 1 bulan\n\nPayment can be via Paypal/link aja/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6282261065144 (Owner)\n\nDonate For Me : \n\n⌕ Paypal : no link\n⌕ Saweria : https://saweria.com/Rimuru233` }, { quoted: m })
 }
 break
 case 'sc':  case 'sourcecode': {
 addCountCmd(`#${command.slice(1)}`, sender, _cmd)
 	anu = `
-⌕ Script : https://github.com/AzzBott679
+⌕ Source code : https://linktr.ee/fin222
 
-Jangan lupa kasih bintang.
-⌕ Donate : 081511480762 (Dana / gopay)
-⌕ Saweria : Kaga ada
+⌕ Donate : 081332995497 (Dana / gopay)
+⌕ Saweria : https://saweria.co/Rimuru233
 ⌕ Paypal : kaga ada
 
 Dont Forget Donate
@@ -670,7 +669,7 @@ Dont Forget Donate
 	let btn = [{
 urlButton: {
 displayText: 'Instagram',
-url: 'https://instagram.com/naando.jpeg'
+url: 'https://instagram.com/al_vin.233'
 }
 }]
 zets.send5ButImg(m.chat, anu, botname, global.sc, btn)
@@ -680,9 +679,9 @@ break
 case 'tqto': case 'partner': case 'credits': {
 	anu = `Terima kasih
 
-Yahya Ganzz
-⌕ https://github.com/AzzBott679
-⌕ https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+Fin
+⌕ https://saweria.co/Rimuru233
+⌕ https://youtube.com/channel/UCCZFKpk85uGzGdGk9kUZUIA
 
 `
 	let btn = [{
